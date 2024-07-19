@@ -5,8 +5,8 @@ function [cvi,ssi] = sscalc(X,Y,u,v,dx,np)
     xmax = X(1,end);
     
     [x,y] = meshgrid(xmin:dx:xmax,ymin:dx:ymax);
-  
-    % using regular gradient, no smoothing
+    
+%     using regular gradient, no smoothing
 %     [Ux,Uy] = gradient(u,dx);
 %     [Vx,Vy] = gradient(v,dx);
 %     d = (Ux+Vy).^2 - 4*(Ux.*Vy - Uy.*Vx);

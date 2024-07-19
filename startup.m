@@ -3,7 +3,7 @@ customColorOrder = [
     1   0   0;    % Red
     0   .8  0;    % Green
     0   0   1;    % Blue
-    0   0   0;    % black
+    0   0   0;    % Black
     .8  .8  0;
     0   .8  .8;
     .8  0   .8];
