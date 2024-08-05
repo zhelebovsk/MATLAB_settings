@@ -1,4 +1,6 @@
 addpath (userpath + "\swirl")
+addpath (userpath + "\figures")
+
 customColorOrder = [
     1   0   0;    % Red
     0   .8  0;    % Green
