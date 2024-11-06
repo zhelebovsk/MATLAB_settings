@@ -1,5 +1,10 @@
-addpath (userpath + "\swirl")
-addpath (userpath + "\figures")
+if ispc
+    addpath (userpath + "\swirl")
+    addpath (userpath + "\figures")
+else
+    addpath (userpath + "/swirl")
+    addpath (userpath + "/figures")
+end
 
 customColorOrder = [
     1   0   0;    % Red
